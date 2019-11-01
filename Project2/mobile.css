@@ -1,0 +1,1079 @@
+@media screen and (min-device-width: 322px) and (max-device-width: 900px) and (max-device-height: 1025px) and (min-device-height: 570px){
+
+	html{
+			overflow-x: hidden;
+		}
+
+	body{
+			overflow-x: hidden;
+		}
+
+
+article>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.hamburger-menu{
+    opacity: 1;
+}
+
+.block-logo>img{
+    width: 115px;
+    height: 38px;
+}
+
+.off-canvas{
+    position: absolute;
+    top: 4%;
+    right: 20px;
+}
+
+.contact{
+    display: none;
+}
+
+.text-block{
+   position: absolute;
+   top: 20%;
+   left: 2%;
+}
+
+
+
+  #slides article{ /*все изображения справа друг от доруга*/
+  width: 14.2858%;
+  float: left;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    position: relative;
+  
+}
+
+video{
+    display: none;
+}
+
+.text-1-black>h3,
+.text-2-black>h3,
+.text-3-black>h3,
+.text-4-blackd>h3{
+text-align: left;
+font-size: 17px;
+color: #232323;
+line-height: 5px;
+
+}
+
+.underline-black{
+    margin-top:0px;
+    width: 288px;
+    height: 8px;
+    background-color: #ff1d1d;
+    margin-bottom: 20px;
+}
+
+.text-4-black>h4,
+.text-5-black>h4,
+.text-6-black>h4{
+    text-align: left;
+    font-size: 14px;
+    color: #232323;
+}
+
+
+.text-1-white>h3,
+.text-2-white>h3,
+.text-3-white>h3,
+.text-4-whited>h3{
+text-align: left;
+font-size: 17px;
+color: #fff;
+line-height: 5px;
+
+}
+
+.underline-white{
+    margin-top:0px;
+    width: 288px;
+    height: 8px;
+    background-color: #ff1d1d;
+    margin-bottom: 20px;
+}
+
+.text-4-white>h4,
+.text-5-white>h4,
+.text-6-white>h4{
+     text-align: left;
+    font-size: 14px;
+    color: #fff;
+}
+
+.header_callback{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    background-color: #fc2900;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.header_callback>p{
+    padding-top: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+#switch1:checked ~ #controls label:nth-child(7), 
+#switch2:checked ~ #controls label:nth-child(1),
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3),
+#switch5:checked ~ #controls label:nth-child(4),
+#switch6:checked ~ #controls label:nth-child(5),
+#switch7:checked ~ #controls label:nth-child(6){
+    background: url('icons/prev.png') no-repeat; 
+    background-color: rgba(34, 34, 34, 0.7);/*заливка фона картинкой без повторений*/
+        float: left;
+    position: absolute;
+    left: 10px;
+    bottom: 110px; 
+    display: block;
+    height: 65px;
+    width: 65px;
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#switch1:checked ~ #controls label:nth-child(2), 
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(5),
+#switch5:checked ~ #controls label:nth-child(6),
+#switch6:checked ~ #controls label:nth-child(7),
+#switch7:checked ~ #controls label:nth-child(1){
+    background: url('icons/next.png') no-repeat; /*заливка фона картинкой без повторений*/
+
+    position: absolute;
+    left: 80px;
+    bottom: 110px;
+
+    height: 65px;
+    width: 65px;
+}
+
+
+
+.logo-menu>img{
+    width: 52px;
+    height: 18px;
+
+}
+
+#active-ul{
+  height: 60px;
+}
+
+
+#switch1:checked ~ #active-ul label:nth-child(1){
+  background: rgba(34, 34, 34, 0.7);
+  border-top: 2px solid #FF1D1D;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  width: 24%;
+
+
+}
+
+#switch2:checked ~ #active-ul label:nth-child(2){
+    background: rgba(34, 34, 34, 0.7);
+  border-top: 2px solid #FF1D1D;
+  height: 62px;
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+#switch3:checked ~ #active-ul label:nth-child(3){
+    background: rgba(34, 34, 34, 0.7);
+  border-top: 2px solid #FF1D1D;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 12%;
+  
+}
+
+#switch4:checked ~ #active-ul label:nth-child(4){
+    background: rgba(34, 34, 34, 0.7);
+  border-top: 2px solid #FF1D1D;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 13%;
+  
+}
+
+#switch5:checked ~ #active-ul label:nth-child(5){
+    background: rgba(34, 34, 34, 0.7);
+  border-top: 2px solid #FF1D1D;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 12%;
+}
+
+#switch6:checked ~ #active-ul label:nth-child(6){
+    background: rgba(34, 34, 34, 0.7);
+  border-top: 2px solid #FF1D1D;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 14%;
+}
+
+#switch7:checked ~ #active-ul label:nth-child(7){
+    background: rgba(34, 34, 34, 0.7);
+  border-top: 2px solid #FF1D1D;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 13%;
+}
+
+#active-ul label:nth-child(1){
+  width: 24%;
+  display: flex;
+  justify-content: center;
+
+
+}
+#active-ul label:nth-child(2){
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#active-ul label:nth-child(3){
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#active-ul label:nth-child(4){
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#active-ul label:nth-child(5){
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#active-ul label:nth-child(6){
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#active-ul label:nth-child(7){
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+
+label>.logo-menu>img{
+  width: 60px;
+}
+
+label>img{
+    width: 28px;
+    height: 28px;
+}
+
+label p{
+  display: none;
+}
+
+#controls{
+   height: 0px;
+}
+
+.hamburger-menu{
+    display: flex;
+}
+    #menu__toggle {
+  opacity: 0;
+}
+    #menu__toggle2 {
+  opacity: 0;
+}
+    #menu__toggle3 {
+  opacity: 0;
+}
+    #menu__toggle4 {
+  opacity: 0;
+}
+    #menu__toggle5 {
+  opacity: 0;
+}
+    #menu__toggle6 {
+  opacity: 0;
+}
+    #menu__toggle7 {
+  opacity: 0;
+}
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 99999;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__btn2 {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 99999;
+}
+/* добавляем "гамбургер" */
+.menu__btn2 > span,
+.menu__btn2 > span::before,
+.menu__btn2 > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.menu__btn2 > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn2 > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__btn3 {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 99999;
+}
+/* добавляем "гамбургер" */
+.menu__btn3 > span,
+.menu__btn3 > span::before,
+.menu__btn3 > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.menu__btn3 > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn3 > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__btn4 {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 99999;
+}
+/* добавляем "гамбургер" */
+.menu__btn4 > span,
+.menu__btn4 > span::before,
+.menu__btn4 > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.menu__btn4 > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn4 > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__btn5 {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 99999;
+}
+/* добавляем "гамбургер" */
+.menu__btn5 > span,
+.menu__btn5 > span::before,
+.menu__btn5 > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.menu__btn5 > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn5 > span::after {
+  content: '';
+  top: 8px;
+}
+
+
+.menu__btn6 {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 99999;
+}
+/* добавляем "гамбургер" */
+.menu__btn6 > span,
+.menu__btn6 > span::before,
+.menu__btn6 > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.menu__btn6 > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn6 > span::after {
+  content: '';
+  top: 8px;
+}
+
+
+.menu__btn7 {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 4%;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 99999;
+}
+/* добавляем "гамбургер" */
+.menu__btn7 > span,
+.menu__btn7 > span::before,
+.menu__btn7 > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.menu__btn7 > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn7 > span::after {
+  content: '';
+  top: 8px;
+}
+
+
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #232323;
+  z-index: 9999; 
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.menu__box2 {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #232323;
+  z-index: 9999; 
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.menu__box3 {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #232323;
+  z-index: 9999; 
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.menu__box4 {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #232323;
+  z-index: 9999; 
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.menu__box5 {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #232323;
+  z-index: 9999; 
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.menu__box6 {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #232323;
+  z-index: 9999; 
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.menu__box7 {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #232323;
+  z-index: 9999; 
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+}
+.menu__item>img{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.menu__item{
+    display: flex;
+    align-items: center;
+}
+.menu__item:hover {
+  background-color: #005ea5;
+  color: #fff;
+}
+.menu__item>label{
+    display: flex;
+}
+.menu__item>label>img{
+    margin-right: 20px;    
+}
+
+.menu__item>label>p{
+    display: block;
+    color: #fff;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+  margin-top: -25px;
+}
+#menu__toggle2:checked ~ .menu__btn2 > span {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#menu__toggle2:checked ~ .menu__btn2 > span::before {
+  top: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+#menu__toggle2:checked ~ .menu__btn2 > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+#menu__toggle2:checked ~ .menu__box2 {
+  visibility: visible;
+  left: 0;
+  margin-top: -25px;
+}
+
+#menu__toggle3:checked ~ .menu__btn3 > span {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#menu__toggle3:checked ~ .menu__btn3 > span::before {
+  top: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+#menu__toggle3:checked ~ .menu__btn3 > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+#menu__toggle3:checked ~ .menu__box3 {
+  visibility: visible;
+  left: 0;
+  margin-top: -25px;
+}
+
+#menu__toggle4:checked ~ .menu__btn4 > span {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#menu__toggle4:checked ~ .menu__btn4 > span::before {
+  top: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+#menu__toggle4:checked ~ .menu__btn4 > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+#menu__toggle4:checked ~ .menu__box4 {
+  visibility: visible;
+  left: 0;
+  margin-top: -25px;
+}
+
+#menu__toggle5:checked ~ .menu__btn5 > span {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#menu__toggle5:checked ~ .menu__btn5 > span::before {
+  top: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+#menu__toggle5:checked ~ .menu__btn5 > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+#menu__toggle5:checked ~ .menu__box5 {
+  visibility: visible;
+  left: 0;
+  margin-top: -25px;
+}
+
+#menu__toggle6:checked ~ .menu__btn6 > span {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#menu__toggle6:checked ~ .menu__btn6 > span::before {
+  top: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+#menu__toggle6:checked ~ .menu__btn6 > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+#menu__toggle6:checked ~ .menu__box6 {
+  visibility: visible;
+  left: 0;
+  margin-top: -25px;
+}
+#menu__toggle7:checked ~ .menu__btn7 > span {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#menu__toggle7:checked ~ .menu__btn7 > span::before {
+  top: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+#menu__toggle7:checked ~ .menu__btn7 > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+#menu__toggle7:checked ~ .menu__box7 {
+  visibility: visible;
+  left: 0;
+  margin-top: -25px;
+}
+
+
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+
+/* POPAP */
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(66,68,69,0.72);
+    z-index: 999;
+    display: none;
+}
+
+
+.popup {
+    position: absolute;
+    width: 96%;
+    height: 60%;
+    left:50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    padding: 3px 20px 5px 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #324152;
+
+}
+
+.popup h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    color: #272727;
+}
+
+.popup p{
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 100.04%;
+    color: #272727;
+    text-align: left;
+}
+
+.close-popup{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+
+}
+
+.close-popup:before{
+    content: '';
+    background-color: #232323;
+    position: absolute;
+    height: 1px;
+    width: 22px;
+    top: 18px;
+    left: -16px;
+    transform: rotate(-45deg);
+}
+
+.close-popup:after{
+    content: '';
+    background-color: #232323;
+    position: absolute;
+    height: 1px;
+    width: 22px;
+    top: 18px;
+    transform: rotate(45deg);
+    left: -16px;
+
+}
+
+#name_popup{
+    background-color: #fff;
+    border-bottom: 1px solid #5C6976 !important;;
+    border: none;
+    color: #BEC3C8;
+    padding-bottom: 12px;
+    font-family: Roboto;
+    font-size: 14px;
+    width: 370px;
+    margin-top: 38px;
+}
+
+
+#phone_popup{
+    background-color: #fff;
+    border-bottom: 1px solid #5C6976 !important;;
+    border: none;
+    color: #BEC3C8;
+    padding-bottom: 12px;
+    font-family: Roboto;
+    font-size: 14px;
+    width: 490px;
+    margin-top: 44px;
+    margin-bottom: 29px;
+}
+
+#email_popup{
+    background-color: #fff;
+    border-bottom: 1px solid #5C6976 !important;;
+    border: none;
+    color: #BEC3C8;
+    padding-bottom: 12px;
+    font-family: Roboto;
+    font-size: 14px;
+    width: 370px;
+    margin-top: 38px;
+}
+
+.form__field {
+    margin-bottom: 10px;
+}
+
+.form__error {
+    color: #C02E00;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+    display: none;
+}
+
+
+.form input {
+    font-family: Roboto;
+    font-size: 14px;
+    outline: none;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.form button {
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    background-color: #ccc;
+    color: #fff;
+}
+
+
+#name{
+    margin-bottom: 2px;
+}
+
+#phone{
+    margin-bottom: 2px;
+}
+
+#spec{
+    color: #5C6976;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 19px;
+}
+
+.form>p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 16px;
+text-align: center;
+color: #989898;
+}
+
+.form>p>a{
+    color: #ff1d1d;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    background: #ff1d1d;
+    color: #fafafa;
+    font-size: 14px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    margin-top: 10.5px;
+}
+
+
+
+
+
+
+
+
